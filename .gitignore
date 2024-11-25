@@ -1,0 +1,23 @@
+# Environment variables
+.env
+
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Django specific
+db.sqlite3  # Ignore SQLite database
+media/      # Uploaded media files
+staticfiles/  # Generated static files
+
+# Logs and temp files
+*.log
+
+# IDE/Editor specific
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
